@@ -1,0 +1,14 @@
+<nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">TheTwoDevs.dev/login</a>
+        <div class="button-container">
+        {{#if isLogged}}
+            <div class="badge text-bg-primary text-wrap" style="width: 6rem;">
+                Welcome
+            </div>
+        {{/if}}
+        <a href="/login"><button class="btn btn-outline-success">Login</button></a>
+        <a href="/register"><button class="btn btn-outline-success">Register</button></a>
+        </div>
+    </div>
+</nav>

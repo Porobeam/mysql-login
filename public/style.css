@@ -1,0 +1,22 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 80px;
+    border: 50px solid black;
+}
+
+h1, .link {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.link {
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.photo {
+    width: 1.0em;
+    height: 1.0em;
+    border-radius: 20px;
+}
